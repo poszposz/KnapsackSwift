@@ -49,7 +49,7 @@ func items() -> [KnapsackItem] {
 
 // Dynamic programming solution
 
-let dynamicSolver = KnapsackDynamicSolver(maximumWeight: 100000, availableItems: items())
+let dynamicSolver = KnapsackDynamicSolver(maximumWeight: 8000, availableItems: items())
 let dynamicResult = dynamicSolver.solve()
 print(dynamicResult)
 
@@ -59,13 +59,13 @@ if let solveTime = dynamicSolver.solveTime {
 
 // Naive solution
 
-//let naiveSolver = KnapsackNaiveSolver(maximumWeight: 30000, availableItems: items())
-//let naiveResult = naiveSolver.solve()
-//print(naiveSolver)
-//
-//if let solveTime = naiveSolver.solveTime {
-//    print("Naive solve time: \(solveTime) seconds.")
-//}
+let naiveSolver = KnapsackNaiveSolver(maximumWeight: 8000, availableItems: items())
+let naiveResult = naiveSolver.solve()
+print(naiveResult)
+
+if let solveTime = naiveSolver.solveTime {
+    print("Naive solve time: \(solveTime) seconds.")
+}
 
 
 
