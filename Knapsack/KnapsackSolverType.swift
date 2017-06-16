@@ -12,8 +12,9 @@ protocol KnapsackSolverType {
     
     var availableItems:     [KnapsackItem] {get set}
     var maximumWeight:      Int {get set}
+    var maximumVolume:      Int {get set}
     var solveTime:          TimeInterval? {get set}
     
-    init(maximumWeight: Int, availableItems: [KnapsackItem])
+    init(maximumWeight: Int, maximumVolume: Int, availableItems: [KnapsackItem])
     func solve() -> Int
 }

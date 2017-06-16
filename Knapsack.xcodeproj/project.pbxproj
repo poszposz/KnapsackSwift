@@ -13,6 +13,7 @@
 		3839A8171EC86273008CB4F8 /* KnapsackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3839A8161EC86273008CB4F8 /* KnapsackItem.swift */; };
 		3839A8191EC86345008CB4F8 /* KnapsackNaiveSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3839A8181EC86345008CB4F8 /* KnapsackNaiveSolver.swift */; };
 		3839A81B1EC88A54008CB4F8 /* KnapsackItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3839A81A1EC88A54008CB4F8 /* KnapsackItemProvider.swift */; };
+		38E9C1231EDC5ABA008481D2 /* KnapsackRandomSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E9C1221EDC5ABA008481D2 /* KnapsackRandomSolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		3839A8161EC86273008CB4F8 /* KnapsackItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnapsackItem.swift; sourceTree = "<group>"; };
 		3839A8181EC86345008CB4F8 /* KnapsackNaiveSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnapsackNaiveSolver.swift; sourceTree = "<group>"; };
 		3839A81A1EC88A54008CB4F8 /* KnapsackItemProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnapsackItemProvider.swift; sourceTree = "<group>"; };
+		38E9C1221EDC5ABA008481D2 /* KnapsackRandomSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnapsackRandomSolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				3839A8121EC861BD008CB4F8 /* KnapsackSolverType.swift */,
 				3839A8141EC8621B008CB4F8 /* KnapsackDynamicSolver.swift */,
 				3839A8181EC86345008CB4F8 /* KnapsackNaiveSolver.swift */,
+				38E9C1221EDC5ABA008481D2 /* KnapsackRandomSolver.swift */,
 			);
 			path = Knapsack;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				3839A8191EC86345008CB4F8 /* KnapsackNaiveSolver.swift in Sources */,
 				3839A8131EC861BD008CB4F8 /* KnapsackSolverType.swift in Sources */,
 				3839A81B1EC88A54008CB4F8 /* KnapsackItemProvider.swift in Sources */,
+				38E9C1231EDC5ABA008481D2 /* KnapsackRandomSolver.swift in Sources */,
 				3839A80C1EC78249008CB4F8 /* main.swift in Sources */,
 				3839A8151EC8621B008CB4F8 /* KnapsackDynamicSolver.swift in Sources */,
 			);
